@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffebee;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #d32f2f;
+    font-size: 3rem;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#yesButton {
+    background-color: #e91e63;
+    color: white;
+}
+
+#noButton {
+    background-color: #757575;
+    color: white;
+    position: absolute; /* Needed for the movement trick */
+}
